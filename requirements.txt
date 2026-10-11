@@ -1,0 +1,16 @@
+# Python packages used by the pipeline scripts in pipeline/ (all steps except
+# 04, 07 and 12, which run in MATLAB R2025a with xy2ll.m).
+# google.colab (steps 13 and 14) is provided by Google Colab and is only used to
+# mount Google Drive.
+numpy
+pandas
+h5py
+matplotlib
+requests        # 01 (Nominatim requests)
+openpyxl        # 01, 02 (reading and writing .xlsx)
+pyproj          # 08, 09
+shapely         # 08
+scikit-image    # 10
+tqdm            # 09, 10, 11
+scikit-learn    # 13 (train_test_split)
+tensorflow      # 14 (tensorflow and keras are imported; used only to print the version and list devices)
