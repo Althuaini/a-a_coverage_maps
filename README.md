@@ -96,9 +96,8 @@ All scripts are named `stepNN_name`, where NN is the step number; steps 03 and 0
 | 15 | `step15_build_release.py` | steps 4 to 14 and the OSM files | the files of the data record (parts A to G) |
 
 Notes:
-1. `step10_r0b1_direct_path_blockage.py` was run on an earlier storage layout of the building-height and TX maps, and for that layout it transposes both maps when loading them. With the released maps, the released R0B1 maps are reproduced by the same logic without this transpose; this was verified on one ROI.
-2. `step11_direction_cos_sin.py` takes the city name from the input folder name and keeps its `_TX_locations` suffix, so its output names are `<City>_TX_locations_CosSin/<City>_TX_locations_roi_<ID>_CosSinTheta.h5`. Later steps use these names.
-3. The cleaning code calls the three cleaning stages `ph1`, `ph2` and `ph2.5`; the article and the data record call them stages 1, 2 and 3.
+1. `step11_direction_cos_sin.py` takes the city name from the input folder name and keeps its `_TX_locations` suffix, so its output names are `<City>_TX_locations_CosSin/<City>_TX_locations_roi_<ID>_CosSinTheta.h5`. Later steps use these names.
+2. The cleaning code calls the three cleaning stages `ph1`, `ph2` and `ph2.5`; the article and the data record call them stages 1, 2 and 3.
 
 ## Paths
 
