@@ -2,7 +2,7 @@
 
 Code for the data article "A ray-traced air-to-air signal strength coverage map dataset over 17 cities, with per-pixel propagation-regime labels" (Data in Brief).
 
-- Data: Zenodo, [ZENODO_DOI], under the Open Database License 1.0 (© OpenStreetMap contributors).
+- Data: https://doi.org/10.5281/zenodo.23303511, under the Open Database License 1.0 (© OpenStreetMap contributors).
 - Code: this repository, under the MIT licence (see `LICENSE`).
 
 Authors: Abdullah Althuwaini and Adan E. Vela, Department of Industrial Engineering and Management Systems, University of Central Florida. Contact: abdullah.althuwaini@ucf.edu
